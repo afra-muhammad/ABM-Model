@@ -1,4 +1,4 @@
-# Phytochemical Treatment ABM for Pseudomonas aeruginosa
+# Phytochemical Treatment ABM for *Pseudomonas aeruginosa*
 
 ##  Overview
 This NetLogo agent-based model simulates the effect of phytochemical treatments for decolonization of *Pseudomonas aeruginosa* in the human respiratory tract. 
