@@ -2,7 +2,7 @@
 
 This repository contains my MSc research work on identifying phytochemicals to inhibit *Pseudomonas aeruginosa* colonization in the human respiratory tract, alongside an agent-based model (ABM) developed in NetLogo to simulate bacterial dynamics and intervention strategies.
 
-## 📝 Project Overview
+##  Project Overview
 
 - **Goal:** Predict phytochemicals that can prevent or reduce *P. aeruginosa* binding and colonization, especially relevant for cystic fibrosis (CF) patients.
 - **Approach:**  
@@ -12,7 +12,7 @@ This repository contains my MSc research work on identifying phytochemicals to i
   - Identified 4 top compounds: **Betulinic acid, Resveratrol, Rosadiene, Stigmasterol**.
 - **Extension:** Developed a NetLogo ABM simulating bacterial populations, host interaction, and phytochemical treatment dynamics.
 
-# Phytochemical Treatment ABM for Pseudomonas aeruginosa
+# Phytochemical Treatment ABM for *Pseudomonas aeruginosa*
 
 ##  Overview
 This NetLogo agent-based model simulates the effect of phytochemical treatments for decolonization of *Pseudomonas aeruginosa* in the human respiratory tract. 
