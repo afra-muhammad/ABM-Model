@@ -1,15 +1,22 @@
+# In-silico Prediction of Phytochemicals & Agent-Based Model of *Pseudomonas aeruginosa* Colonization
+
+This repository contains my MSc research work on identifying phytochemicals to inhibit *Pseudomonas aeruginosa* colonization in the human respiratory tract, alongside an agent-based model (ABM) developed in NetLogo to simulate bacterial dynamics and intervention strategies.
+
+## 📝 Project Overview
+
+- **Goal:** Predict phytochemicals that can prevent or reduce *P. aeruginosa* binding and colonization, especially relevant for cystic fibrosis (CF) patients.
+- **Approach:**  
+  - Built a library of 276,518 natural compounds (from LOTUS database).  
+  - Applied ADMET and drug-likeness filters (Lipinski’s rules, toxicity, bioavailability), selecting 444 candidates.
+  - Performed molecular docking (AutoDock Vina) against 19 *P. aeruginosa* virulence proteins including outer membrane proteins, pili, flagella, and secretion system components.
+  - Identified 4 top compounds: **Betulinic acid, Resveratrol, Rosadiene, Stigmasterol**.
+- **Extension:** Developed a NetLogo ABM simulating bacterial populations, host interaction, and phytochemical treatment dynamics.
+
 # Phytochemical Treatment ABM for Pseudomonas aeruginosa
 
 ##  Overview
 This NetLogo agent-based model simulates the effect of phytochemical treatments for decolonization of *Pseudomonas aeruginosa* in the human respiratory tract. 
-
-The model is based on my MS research work, where I identified four promising phytochemicals:
-- **Betulinic acid**
-- **Rosadiene**
-- **Resveratrol**
-- **Stigmasterol**
-
-These compounds, selected through in-silico screening and molecular docking, exhibit strong interactions with *P. aeruginosa* virulence proteins and demonstrate drug-like properties.
+The compounds selected through in-silico screening and molecular docking, exhibit strong interactions with *P. aeruginosa* virulence proteins and demonstrate drug-like properties.
 
 The model illustrates the dynamics of bacterial colonization and evaluates the potential of phytochemicals to reduce bacterial populations, accounting for varying levels of bacterial resistance.
 
